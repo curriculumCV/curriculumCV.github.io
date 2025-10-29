@@ -1,3 +1,4 @@
+// ELIMINADO Bootstrap - ya no es necesario
 // Configuración de performance
 const config = {
     animationDelay: 400,
@@ -13,7 +14,6 @@ const animationObserver = new IntersectionObserver((entries) => {
             requestAnimationFrame(() => {
                 entry.target.classList.add('animacion-activa');
             });
-            // Dejar de observar una vez animado
             animationObserver.unobserve(entry.target);
         }
     });
@@ -22,12 +22,6 @@ const animationObserver = new IntersectionObserver((entries) => {
     rootMargin: config.observerRootMargin
 });
 
-// Cargar recursos no críticos de forma diferida
-function loadNonCriticalResources() {
-    // Esta función se puede expandir para cargar más recursos si es necesario
-    console.log('Recursos no críticos cargados');
-}
-
 // Manejar la transición optimizada
 function handleCurriculumTransition() {
     const pantallaInicio = document.getElementById('pantallaInicio');
@@ -35,23 +29,13 @@ function handleCurriculumTransition() {
     
     if (!pantallaInicio || !curriculum) return;
     
-    // Agregar clase para ocultar
     pantallaInicio.classList.add('oculta');
     
-    // Usar requestAnimationFrame para mejor performance
     requestAnimationFrame(() => {
         setTimeout(() => {
             curriculum.classList.add('mostrar');
-            
-            // Animar barras de habilidad
             animateSkillBars();
-            
-            // Observar elementos para animaciones
             initAnimations();
-            
-            // Cargar recursos no críticos
-            loadNonCriticalResources();
-            
         }, config.animationDelay);
     });
 }
@@ -76,7 +60,6 @@ function animateSkillBars() {
 // Inicializar animaciones
 function initAnimations() {
     const elementosAnimados = document.querySelectorAll('.animacion-aparecer');
-    
     elementosAnimados.forEach(elemento => {
         animationObserver.observe(elemento);
     });
@@ -87,18 +70,13 @@ function initApp() {
     const verCurriculumBtn = document.getElementById('verCurriculum');
     
     if (verCurriculumBtn) {
-        // Agregar event listeners optimizados
         verCurriculumBtn.addEventListener('click', handleCurriculumTransition);
         verCurriculumBtn.addEventListener('touchstart', handleCurriculumTransition, { 
             passive: true 
         });
     }
     
-    // Inicializar animaciones para elementos ya visibles
     initAnimations();
-    
-    // Cargar recursos no críticos después de un tiempo
-    setTimeout(loadNonCriticalResources, 2000);
 }
 
 // Manejar navegación por teclado
@@ -124,7 +102,7 @@ function preventZoom(event) {
     }
 }
 
-// Event listeners optimizados
+// Event listeners
 document.addEventListener('keydown', handleKeyboardNavigation);
 document.addEventListener('touchstart', preventZoom, { passive: false });
 
@@ -132,20 +110,5 @@ document.addEventListener('touchstart', preventZoom, { passive: false });
 if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initApp);
 } else {
-    // DOM ya está listo
     initApp();
-}
-
-// Manejar errors silenciosamente
-window.addEventListener('error', (e) => {
-    console.warn('Error capturado:', e.error);
-});
-
-// Exportar para tests si es necesario
-if (typeof module !== 'undefined' && module.exports) {
-    module.exports = {
-        handleCurriculumTransition,
-        animateSkillBars,
-        initApp
-    };
 }
