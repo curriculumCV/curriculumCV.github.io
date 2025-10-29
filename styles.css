@@ -8,6 +8,17 @@
     --sombra-suave: 0 8px 25px rgba(30, 64, 175, 0.12);
 }
 
+/* ESTILOS PARA ICONOS - REEMPLAZANDO FONT AWESOME */
+[class*="fa-"] {
+    font-family: 'Arial', sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    display: inline-block;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
 /* Optimizar animaciones para móvil */
 @media (prefers-reduced-motion: no-preference) {
     .foto-inicio {
@@ -33,6 +44,11 @@ body {
 .nombre,
 .titulo-tarjeta {
     font-family: 'DM Serif Display', 'Times New Roman', serif;
+}
+
+/* Utilidades de texto que reemplazan Bootstrap */
+.text-center {
+    text-align: center;
 }
 
 /* Pantalla de inicio optimizada */
@@ -81,6 +97,7 @@ body {
     min-height: 44px;
     position: relative;
     overflow: hidden;
+    border: none;
 }
 
 /* Mejorar rendimiento de hover en móvil */
@@ -282,24 +299,6 @@ body {
     gap: 12px;
 }
 
-@media (min-width: 480px) {
-    .habilidades-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (min-width: 768px) {
-    .habilidades-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (min-width: 992px) {
-    .habilidades-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
 .habilidad {
     background: var(--color-gris-claro);
     padding: 12px 14px;
@@ -478,12 +477,10 @@ body {
         padding: 12px 28px;
     }
     
-    /* Ajustes específicos para habilidades en móvil */
     .habilidad {
         padding: 10px 12px;
     }
     
-    /* Ajuste para tarjeta completa en móvil */
     .tarjeta-completa {
         margin-bottom: 25px;
     }
@@ -506,7 +503,6 @@ body {
         height: 120px;
     }
     
-    /* Ajustes para mejor legibilidad en móvil */
     .habilidad > div:first-child {
         font-size: 0.95rem;
     }
