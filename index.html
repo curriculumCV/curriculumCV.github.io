@@ -28,7 +28,6 @@
 
     <!-- CSS crítico inline -->
     <style>
-        /* CSS CRÍTICO MINIFICADO */
         :root{--color-primario:#1e40af;--color-secundario:#0ea5e9;--color-blanco:#fff;--color-texto:#334155;--color-gris-claro:#f1f5f9;--sombra-suave:0 8px 25px rgba(30,64,175,0.12)}
         *{margin:0;padding:0;box-sizing:border-box}
         body{font-family:system-ui,-apple-system,sans-serif;background:#f8fafc;color:var(--color-texto);line-height:1.6;font-size:16px;overflow-x:hidden}
@@ -40,13 +39,36 @@
         .contenedor-principal{max-width:1200px;margin:0 auto;padding:0 20px}
         .contenido-inicio{text-align:center;color:var(--color-blanco);padding:20px;max-width:800px}
         .foto-inicio{width:150px;height:150px;border-radius:50%;border:3px solid rgba(255,255,255,.3);object-fit:cover;margin-bottom:30px;aspect-ratio:1}
+        
+        /* ICONOS FONT AWESOME QUE USAS - SOLO LOS NECESARIOS */
+        .fa-user:before{content:"\f007"}
+        .fa-cogs:before{content:"\f085"}
+        .fa-language:before{content:"\f1ab"}
+        .fa-star:before{content:"\f005"}
+        .fa-heart:before{content:"\f004"}
+        .fa-briefcase:before{content:"\f0b1"}
+        .fa-graduation-cap:before{content:"\f19d"}
+        .fa-certificate:before{content:"\f0a3"}
+        .fa-address-book:before{content:"\f2b9"}
+        .fa-phone:before{content:"\f095"}
+        .fa-envelope:before{content:"\f0e0"}
+        .fa-map-marker-alt:before{content:"\f3c5"}
+        .fa-check:before{content:"\f00c"}
+        .fa-award:before{content:"\f559"}
+        .fa-futbol:before{content:"\f1e3"}
+        .fa-film:before{content:"\f008"}
+        .fa-gamepad:before{content:"\f11b"}
+        .fa-laptop-code:before{content:"\f5fc"}
+        
         .skip-link{position:absolute;top:-40px;left:6px;background:var(--color-primario);color:var(--color-blanco);padding:8px;text-decoration:none;z-index:1000;border-radius:4px}
         .skip-link:focus{top:6px}
         @media (max-width:768px){body{font-size:14px}.contenedor-principal{padding:0 16px}}
     </style>
 
     <!-- CSS no crítico cargado de forma asíncrona -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" media="print" onload="this.onload='null';this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap"></noscript>
+    
     <link rel="stylesheet" href="styles.css" media="print" onload="this.media='all'">
     
     <!-- Bootstrap y Font Awesome - cargados de forma diferida -->
