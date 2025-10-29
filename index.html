@@ -1,49 +1,73 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carlos Santos Jiménez - Currículum</title>
-    <!-- SEO Meta Tags -->
     <meta name="description" content="Currículum de Carlos Santos Jiménez, Técnico Informático en SMR y estudiante de Desarrollo de Aplicaciones Multiplataforma. Especializado en montaje de equipos, optimización web y desarrollo de sitios responsivos.">
     <meta name="keywords" content="Carlos Santos Jiménez, currículum, técnico informático, desarrollo web, montaje equipos, SEO, responsivo, Madrid">
     <meta name="author" content="Carlos Santos Jiménez">
     <meta name="robots" content="index, follow">
-    <!-- Open Graph for Social Media -->
     <meta property="og:title" content="Carlos Santos Jiménez - Currículum">
     <meta property="og:description" content="Currículum profesional de Carlos Santos Jiménez, apasionado por la informática y el desarrollo web.">
     <meta property="og:image" content="https://media.licdn.com/dms/image/v2/D4D03AQG_N5IXURAMcQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1713769318734?e=2147483647&v=beta&t=gBgNJuKvdFtUuQEKBdAe_5G5ohUNl0dzDsP1MCBv-9I">
     <meta property="og:url" content="https://carlossantosjimenez.github.io">
     <meta property="og:type" content="website">
-    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Carlos Santos Jiménez - Currículum">
     <meta name="twitter:description" content="Currículum profesional de Carlos Santos Jiménez.">
     <meta name="twitter:image" content="https://media.licdn.com/dms/image/v2/D4D03AQG_N5IXURAMcQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1713769318734?e=2147483647&v=beta&t=gBgNJuKvdFtUuQEKBdAe_5G5ohUNl0dzDsP1MCBv-9I">
-    <!-- Canonical URL -->
     <link rel="canonical" href="https://carlossantosjimenez.github.io">
-    <!-- Favicon -->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <!-- Structured Data for SEO -->
-    <script type="application/ld+json">
 
-    </script>
-    <!-- Preload Fonts for Performance -->
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap"></noscript>
-    <!-- External CSS -->
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- Preconnect para recursos externos -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+
+    <!-- CSS crítico inline -->
+    <style>
+        /* CSS CRÍTICO MINIFICADO */
+        :root{--color-primario:#1e40af;--color-secundario:#0ea5e9;--color-blanco:#fff;--color-texto:#334155;--color-gris-claro:#f1f5f9;--sombra-suave:0 8px 25px rgba(30,64,175,0.12)}
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:system-ui,-apple-system,sans-serif;background:#f8fafc;color:var(--color-texto);line-height:1.6;font-size:16px;overflow-x:hidden}
+        .pantalla-inicio{position:fixed;top:0;left:0;width:100%;height:100%;background:linear-gradient(135deg,var(--color-primario),var(--color-secundario));display:flex;justify-content:center;align-items:center;z-index:9999;transition:opacity .8s ease}
+        .pantalla-inicio.oculta{opacity:0;visibility:hidden}
+        .curriculum{display:none}
+        .curriculum.mostrar{display:block;animation:aparecerContenido 1s ease}
+        @keyframes aparecerContenido{from{opacity:0}to{opacity:1}}
+        .contenedor-principal{max-width:1200px;margin:0 auto;padding:0 20px}
+        .contenido-inicio{text-align:center;color:var(--color-blanco);padding:20px;max-width:800px}
+        .foto-inicio{width:150px;height:150px;border-radius:50%;border:3px solid rgba(255,255,255,.3);object-fit:cover;margin-bottom:30px;aspect-ratio:1}
+        .skip-link{position:absolute;top:-40px;left:6px;background:var(--color-primario);color:var(--color-blanco);padding:8px;text-decoration:none;z-index:1000;border-radius:4px}
+        .skip-link:focus{top:6px}
+        @media (max-width:768px){body{font-size:14px}.contenedor-principal{padding:0 16px}}
+    </style>
+
+    <!-- CSS no crítico cargado de forma asíncrona -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="styles.css" media="print" onload="this.media='all'">
+    
+    <!-- Bootstrap y Font Awesome - cargados de forma diferida -->
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"></noscript>
+    
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"></noscript>
 </head>
 
 <body>
     <a href="#curriculum" class="skip-link">Saltar al contenido principal</a>
+    
     <div class="pantalla-inicio" id="pantallaInicio">
         <div class="contenido-inicio">
             <img src="https://media.licdn.com/dms/image/v2/D4D03AQG_N5IXURAMcQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1713769318734?e=2147483647&v=beta&t=gBgNJuKvdFtUuQEKBdAe_5G5ohUNl0dzDsP1MCBv-9I" 
-            alt="Carlos Santos Jiménez" class="foto-inicio">
+                 alt="Carlos Santos Jiménez" 
+                 class="foto-inicio"
+                 width="150" 
+                 height="150"
+                 loading="eager">
             <h1 class="titulo-inicio">Carlos Santos Jiménez</h1>
             <h2 class="subtitulo-inicio">Técnico Informático en SMR</h2>
             <h2 class="subtitulo-inicio">Estudiante de Desarrollo de Aplicaciones Multiplataforma</h2>
@@ -62,7 +86,11 @@
             <div class="contenedor-principal">
                 <div class="contenido-encabezado text-center">
                     <img src="https://media.licdn.com/dms/image/v2/D4D03AQG_N5IXURAMcQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1713769318734?e=2147483647&v=beta&t=gBgNJuKvdFtUuQEKBdAe_5G5ohUNl0dzDsP1MCBv-9I" 
-                    alt="Carlos Santos Jiménez" class="foto-perfil">
+                         alt="Carlos Santos Jiménez" 
+                         class="foto-perfil"
+                         width="180" 
+                         height="180"
+                         loading="lazy">
                     <h1 class="nombre">Carlos Santos Jiménez</h1>
                     <h2 class="titulo-profesional">Técnico Informático en SMR</h2>
                     <h2 class="titulo-profesional">Estudiante de Desarrollo de Aplicaciones Multiplataforma</h2>
@@ -71,13 +99,15 @@
         </header>
 
         <main class="contenedor-principal">
+            <!-- SECCIÓN PERFIL QUE OCUPA AMBAS COLUMNAS -->
+            <div class="tarjeta tarjeta-perfil tarjeta-completa animacion-aparecer">
+                <h3 class="titulo-tarjeta"><i class="fas fa-user"></i> Perfil</h3>
+                <p class="texto-perfil"><strong>Gran apasionado de la informática, redes, páginas web</strong> y sobre todo en el montaje de los componentes de un ordenador y el desarrollo de sitios web y ciberseguridad. Soy una persona amable, extrovertida y con gran paciencia. Mis intereses se basan en el deporte, el cine, los videojuegos, mi familia, amigos y la informática en todo su ser.</p>
+            </div>
+
             <div class="contenido-principal">
                 <div class="columna-izquierda">
-                    <div class="tarjeta tarjeta-perfil animacion-aparecer">
-                        <h3 class="titulo-tarjeta"><i class="fas fa-user"></i> Perfil</h3>
-                        <p class="texto-perfil"><strong>Gran apasionado de la informática, redes, páginas web</strong> y sobre todo en el montaje de los componentes de un ordenador y el desarrollo de sitios web y ciberseguridad. Soy una persona amable, extrovertida y con gran paciencia. Mis intereses se basan en el deporte, el cine, los videojuegos, mi familia, amigos y la informática en todo su ser.</p>
-                    </div>
-
+                    <!-- SECCIÓN HABILIDADES EN COLUMNA IZQUIERDA -->
                     <div class="tarjeta animacion-aparecer">
                         <h3 class="titulo-tarjeta"><i class="fas fa-cogs"></i> Habilidades</h3>
                         <div class="habilidades-grid">
@@ -162,9 +192,33 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- CONTACTO EN COLUMNA IZQUIERDA -->
+                    <div class="tarjeta animacion-aparecer">
+                        <h3 class="titulo-tarjeta"><i class="fas fa-address-book"></i> Contacto</h3>
+                        <div class="info-contacto">
+                            <div class="item-contacto">
+                                <a href="tel:+644061650" style="color: inherit; text-decoration: none; display: flex; align-items: center; gap: 15px; width: 100%; height: 100%; padding: 14px 16px; margin: -14px -16px;">
+                                    <i class="fas fa-phone icono-contacto"></i>
+                                    <span>644-061-650</span>
+                                </a>
+                            </div>
+                            <div class="item-contacto">
+                                <a href="mailto:santosjimenezcarlos4@gmail.com" style="color: inherit; text-decoration: none; display: flex; align-items: center; gap: 15px; width: 100%; height: 100%; padding: 14px 16px; margin: -14px -16px;">
+                                    <i class="fas fa-envelope icono-contacto"></i>
+                                    <span>santosjimenezcarlos4@gmail.com</span>
+                                </a>
+                            </div>
+                            <div class="item-contacto">
+                                <i class="fas fa-map-marker-alt icono-contacto"></i>
+                                <span>Fuenlabrada, Madrid</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="columna-derecha">
+                    <!-- SOLO EXPERIENCIA, EDUCACIÓN Y CERTIFICACIONES EN COLUMNA DERECHA -->
                     <div class="tarjeta animacion-aparecer">
                         <h3 class="titulo-tarjeta"><i class="fas fa-briefcase"></i> Experiencia</h3>
                         <div class="lista-contenido">
@@ -230,28 +284,6 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="tarjeta animacion-aparecer">
-                        <h3 class="titulo-tarjeta"><i class="fas fa-address-book"></i> Contacto</h3>
-                        <div class="info-contacto">
-                            <div class="item-contacto">
-                                <a href="tel:+644061650" style="color: inherit; text-decoration: none; display: flex; align-items: center; gap: 15px; width: 100%; height: 100%; padding: 14px 16px; margin: -14px -16px;">
-                                    <i class="fas fa-phone icono-contacto"></i>
-                                    <span>644-061-650</span>
-                                </a>
-                            </div>
-                            <div class="item-contacto">
-                                <a href="mailto:santosjimenezcarlos4@gmail.com" style="color: inherit; text-decoration: none; display: flex; align-items: center; gap: 15px; width: 100%; height: 100%; padding: 14px 16px; margin: -14px -16px;">
-                                    <i class="fas fa-envelope icono-contacto"></i>
-                                    <span>santosjimenezcarlos4@gmail.com</span>
-                                </a>
-                            </div>
-                            <div class="item-contacto">
-                                <i class="fas fa-map-marker-alt icono-contacto"></i>
-                                <span>Fuenlabrada, Madrid</span>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </main>
@@ -263,9 +295,8 @@
         </footer>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-
-    <script defer src="scripts.js"></script>
+    <!-- Scripts al final del body -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="scripts.js" defer></script>
 </body>
-
 </html>
