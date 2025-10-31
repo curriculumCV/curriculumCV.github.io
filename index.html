@@ -227,7 +227,12 @@
 
     <link rel="stylesheet" href="styles.css" media="print" onload="this.media='all'">
 
-    <!-- Bootstrap and Font Awesome removed to reduce unused CSS -->
+    <!-- Lightweight Font Awesome (core + solid) for icons, deferred -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/solid.min.css" media="print" onload="this.media='all'">
+
+    <!-- Bootstrap removed to reduce unused CSS -->
 </head>
 
 <body>
@@ -245,10 +250,10 @@
                 de equipos, optimización y desarrollo de sitios web responsivos.</p>
             <button class="boton-inicio" id="verCurriculum">Explorar Currículum</button>
             <div class="iconos-inicio">
-                <a href="tel:+644061650" aria-label="teléfono" class="icono-inicio" title="Teléfono">📞</a>
-                <a href="mailto:santosjimenezcarlos4@gmail.com" aria-label="Correo Electrónico" class="icono-inicio" title="Email">✉️</a>
+                <a href="tel:+644061650" aria-label="teléfono" class="icono-inicio" title="Teléfono"><i class="fas fa-phone"></i></a>
+                <a href="mailto:santosjimenezcarlos4@gmail.com" aria-label="Correo Electrónico" class="icono-inicio" title="Email"><i class="fas fa-envelope"></i></a>
                 <a href="https://www.google.com/maps/place/Fuenlabrada+(28942),+Madrid" aria-label="Ubicación"
-                    target="_blank" class="icono-inicio" title="Ubicación">📍</a>
+                    target="_blank" class="icono-inicio" title="Ubicación"><i class="fas fa-map-marker-alt"></i></a>
             </div>
         </div>
     </div>
@@ -268,7 +273,7 @@
 
         <main class="contenedor-principal">
             <div class="tarjeta tarjeta-perfil tarjeta-completa animacion-aparecer">
-                <h3 class="titulo-tarjeta">👤 Perfil</h3>
+                <h3 class="titulo-tarjeta"><i class="fas fa-user"></i> Perfil</h3>
                 <p class="texto-perfil"><strong>Gran apasionado de la informática, redes, páginas web</strong> y sobre
                     todo en el montaje de los componentes de un ordenador y el desarrollo de sitios web y
                     ciberseguridad. Soy una persona amable, extrovertida y con gran paciencia. Mis intereses se basan en
@@ -278,7 +283,7 @@
             <div class="contenido-principal">
                 <div class="columna-izquierda">
                     <div class="tarjeta animacion-aparecer">
-                        <h3 class="titulo-tarjeta">🛠️ Habilidades</h3>
+                        <h3 class="titulo-tarjeta"><i class="fas fa-cogs"></i> Habilidades</h3>
                         <div class="habilidades-grid">
                             <div class="habilidad">
                                 <div>Optimización Web y SEO</div>
@@ -320,7 +325,7 @@
                     </div>
 
                     <div class="tarjeta animacion-aparecer">
-                        <h3 class="titulo-tarjeta">🌐 Idiomas</h3>
+                        <h3 class="titulo-tarjeta"><i class="fas fa-language"></i> Idiomas</h3>
                         <div class="cualidades-grid">
                             <div class="cualidad">Español Nativo</div>
                             <div class="cualidad">Inglés B1</div>
@@ -329,7 +334,7 @@
 
                     <div class="mini-tarjetas-grid">
                         <div class="tarjeta animacion-aparecer">
-                            <h3 class="titulo-tarjeta">⭐ Cualidades</h3>
+                            <h3 class="titulo-tarjeta"><i class="fas fa-star"></i> Cualidades</h3>
                             <div class="cualidades-grid">
                                 <div class="cualidad">Amable</div>
                                 <div class="cualidad">Extrovertido</div>
@@ -340,22 +345,22 @@
                             </div>
                         </div>
                         <div class="tarjeta animacion-aparecer">
-                            <h3 class="titulo-tarjeta">❤️ Aficiones</h3>
+                            <h3 class="titulo-tarjeta"><i class="fas fa-heart"></i> Aficiones</h3>
                             <div class="aficiones-grid">
                                 <div class="aficion">
-                                    <span aria-hidden="true">⚽</span>
+                                    <i class="fas fa-futbol"></i>
                                     <span>Deporte</span>
                                 </div>
                                 <div class="aficion">
-                                    <span aria-hidden="true">🎬</span>
+                                    <i class="fas fa-film"></i>
                                     <span>Cine</span>
                                 </div>
                                 <div class="aficion">
-                                    <span aria-hidden="true">🎮</span>
+                                    <i class="fas fa-gamepad"></i>
                                     <span>Videojuegos</span>
                                 </div>
                                 <div class="aficion">
-                                    <span aria-hidden="true">💻</span>
+                                    <i class="fas fa-laptop-code"></i>
                                     <span>Tecnología</span>
                                 </div>
                             </div>
@@ -363,24 +368,24 @@
                     </div>
 
                     <div class="tarjeta animacion-aparecer">
-                        <h3 class="titulo-tarjeta">📒 Contacto</h3>
+                        <h3 class="titulo-tarjeta"><i class="fas fa-address-book"></i> Contacto</h3>
                         <div class="info-contacto">
                             <div class="item-contacto">
                                 <a href="tel:+644061650"
                                     style="color: inherit; text-decoration: none; display: flex; align-items: center; gap: 15px; width: 100%; height: 100%; padding: 14px 16px; margin: -14px -16px;">
-                                    <span class="icono-contacto" aria-hidden="true">📞</span>
+                                    <i class="fas fa-phone icono-contacto"></i>
                                     <span>644-061-650</span>
                                 </a>
                             </div>
                             <div class="item-contacto">
                                 <a href="mailto:santosjimenezcarlos4@gmail.com"
                                     style="color: inherit; text-decoration: none; display: flex; align-items: center; gap: 15px; width: 100%; height: 100%; padding: 14px 16px; margin: -14px -16px;">
-                                    <span class="icono-contacto" aria-hidden="true">✉️</span>
+                                    <i class="fas fa-envelope icono-contacto"></i>
                                     <span>santosjimenezcarlos4@gmail.com</span>
                                 </a>
                             </div>
                             <div class="item-contacto">
-                                <span class="icono-contacto" aria-hidden="true">📍</span>
+                                <i class="fas fa-map-marker-alt icono-contacto"></i>
                                 <span>Fuenlabrada, Madrid</span>
                             </div>
                         </div>
@@ -389,7 +394,7 @@
 
                 <div class="columna-derecha">
                     <div class="tarjeta animacion-aparecer">
-                        <h3 class="titulo-tarjeta">💼 Experiencia</h3>
+                        <h3 class="titulo-tarjeta"><i class="fas fa-briefcase"></i> Experiencia</h3>
                         <div class="lista-contenido">
                             <div class="item-lista">
                                 <h4 class="titulo-item">Desarrollador de páginas web</h4>
@@ -400,26 +405,26 @@
                                         Alhazen</a>
                                 </p>
                                 <ul class="lista-detalles">
-                                    <li>✔️ Responsividad páginas web</li>
-                                    <li>✔️ Optimización y SEO</li>
-                                    <li>✔️ Desarrollo de sitios webs en Wordpress</li>
-                                    <li>✔️ Implementación de plugins y base de datos</li>
+                                    <li><i class="fas fa-check"></i> Responsividad páginas web</li>
+                                    <li><i class="fas fa-check"></i> Optimización y SEO</li>
+                                    <li><i class="fas fa-check"></i> Desarrollo de sitios webs en Wordpress</li>
+                                    <li><i class="fas fa-check"></i> Implementación de plugins y base de datos</li>
                                 </ul>
                             </div>
                             <div class="item-lista">
                                 <h4 class="titulo-item">Manipulador de Alimentos</h4>
                                 <p class="subtitulo-item">Delfín Ultracongelados</p>
                                 <ul class="lista-detalles">
-                                    <li>✔️ Cortar alimentos</li>
-                                    <li>✔️ Optimización de materia prima</li>
-                                    <li>✔️ Manejar palés con traspalés</li>
+                                    <li><i class="fas fa-check"></i> Cortar alimentos</li>
+                                    <li><i class="fas fa-check"></i> Optimización de materia prima</li>
+                                    <li><i class="fas fa-check"></i> Manejar palés con traspalés</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
 
                     <div class="tarjeta animacion-aparecer">
-                        <h3 class="titulo-tarjeta">🎓 Educación</h3>
+                        <h3 class="titulo-tarjeta"><i class="fas fa-graduation-cap"></i> Educación</h3>
                         <div class="lista-contenido">
                             <div class="item-lista">
                                 <h4 class="titulo-item">Grado superior de Desarrollo de Aplicaciones Multiplataforma
@@ -442,20 +447,20 @@
                     </div>
 
                     <div class="tarjeta animacion-aparecer">
-                        <h3 class="titulo-tarjeta">📜 Certificaciones</h3>
+                        <h3 class="titulo-tarjeta"><i class="fas fa-certificate"></i> Certificaciones</h3>
                         <div class="lista-contenido">
                             <div class="item-lista">
                                 <h4 class="titulo-item">Defensa de la Red</h4>
                                 <p class="subtitulo-item">Cisco Networking Academy | 21-02-2025</p>
                                 <a href="https://docs.google.com/document/d/1NDFI3ouZn1F8RLw_89FH1xqDtWbyeieiuIc-J-IDicA/edit?usp=sharing"
-                                    class="enlace-certificado">🏅 Ver
+                                    class="enlace-certificado"><i class="fas fa-award" style="margin-right:8px;"></i>Ver
                                     Certificado</a>
                             </div>
                             <div class="item-lista">
                                 <h4 class="titulo-item">Introducción a la Ciberseguridad</h4>
                                 <p class="subtitulo-item">Cisco Networking Academy | 30-01-2025</p>
                                 <a href="https://docs.google.com/document/d/11iRzy_MpqiGdpheG0mKvUUKmK5lQmQJN0zILnfWTIa4/edit?usp=sharing"
-                                    class="enlace-certificado">🏅 Ver
+                                    class="enlace-certificado"><i class="fas fa-award" style="margin-right:8px;"></i>Ver
                                     Certificado</a>
                             </div>
                         </div>
