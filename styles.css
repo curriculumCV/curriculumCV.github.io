@@ -500,7 +500,7 @@ html { scrollbar-color: var(--linea-fuerte) var(--bg); }
 @media (hover: hover) and (pointer: fine) {
   .contacto-enlace:hover span { text-decoration-color: var(--acento); }
 }
-.contacto-imprimir { margin-top: 1.5rem; }
+.contacto-imprimir { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1.5rem; }
 .pie { padding-top: 2rem; border-top: 1px solid var(--linea); font-size: .88rem; color: var(--fg-3); max-width: var(--medida); text-wrap: pretty; }
 
 /* 10. Entrada orquestada: una sola vez, al cargar, del lateral al perfil y la terminal */

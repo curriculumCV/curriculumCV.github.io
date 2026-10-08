@@ -140,6 +140,11 @@
       <path d="M3 7V5a2 2 0 0 1 2-2h2M17 3h2a2 2 0 0 1 2 2v2M21 17v2a2 2 0 0 1-2 2h-2M7 21H5a2 2 0 0 1-2-2v-2" />
       <path d="M7 12h10" />
     </symbol>
+    <symbol id="i-download" viewBox="0 0 24 24">
+      <path d="M12 3v12" />
+      <path d="m7 10 5 5 5-5" />
+      <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" />
+    </symbol>
     <symbol id="i-print" viewBox="0 0 24 24">
       <path d="M6 9V3h12v6" />
       <rect x="6" y="14" width="12" height="7" />
@@ -621,10 +626,12 @@
               </svg><span>Fuenlabrada (28942), Madrid</span><span class="visually-hidden"> (mapa, se abre en una pestaña
                 nueva)</span></a></li>
         </ul>
-        <p class="contacto-imprimir"><button type="button" class="boton" id="imprimir" hidden><svg class="ico"
+        <p class="contacto-imprimir"><a class="boton boton-primario" href="cv/Carlos_Santos_Jimenez_CV.pdf" download="Carlos_Santos_Jimenez_CV.pdf" type="application/pdf"><svg class="ico" aria-hidden="true">
+              <use href="#i-download" />
+            </svg>Descargar CV en PDF<span class="visually-hidden"> (una página, 300 KB)</span></a> <button type="button" class="boton" id="imprimir" hidden><svg class="ico"
               aria-hidden="true">
               <use href="#i-print" />
-            </svg>Imprimir o guardar en PDF</button></p>
+            </svg>Imprimir esta página</button></p>
       </section>
 
       <footer class="pie">
