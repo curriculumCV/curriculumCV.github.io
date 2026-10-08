@@ -67,8 +67,10 @@ FORMACION = [
 ]
 
 CERTIFICACIONES = [
-    ("Defensa de la Red", "Cisco Networking Academy · feb 2025"),
-    ("Introducción a la Ciberseguridad", "Cisco Networking Academy · ene 2025"),
+    ("Defensa de la Red", "Cisco Networking Academy · feb 2025",
+     "https://docs.google.com/document/d/1NDFI3ouZn1F8RLw_89FH1xqDtWbyeieiuIc-J-IDicA/edit?usp=sharing"),
+    ("Introducción a la Ciberseguridad", "Cisco Networking Academy · ene 2025",
+     "https://docs.google.com/document/d/11iRzy_MpqiGdpheG0mKvUUKmK5lQmQJN0zILnfWTIa4/edit?usp=sharing"),
 ]
 
 HABILIDADES = [
@@ -210,9 +212,14 @@ def construir():
 
     yi -= 18
     yi = titulo_seccion(c, "Certificaciones", xi, yi, col_izq)
-    for nombre, ent in CERTIFICACIONES:
-        yi = parrafo(c, nombre, st_item_t, xi, yi + 2, col_izq)
-        yi = parrafo(c, ent, st_item_s, xi, yi, col_izq) - 8
+    for nombre, ent, url in CERTIFICACIONES:
+        y_arriba = yi + 2
+        yi = parrafo(c, nombre, st_item_t, xi, y_arriba, col_izq)
+        yi = parrafo(c, ent, st_item_s, xi, yi, col_izq)
+        # Enlace clicable al certificado (el título y el enlace abren el documento).
+        yi = parrafo(c, '<a href="%s" color="#0e7a6f"><u>Ver certificado</u></a>' % url, st_item_s, xi, yi - 1, col_izq)
+        c.linkURL(url, (xi, yi, xi + col_izq, y_arriba), relative=0)
+        yi -= 8
 
     # Columna derecha
     yd = titulo_seccion(c, "Perfil", xd, yd, col_der)
@@ -237,7 +244,7 @@ def construir():
 
     # Pie
     c.setFont(F, 7.4); c.setFillColor(TEXTO3)
-    c.drawString(M, M - 6, "Escanea el código QR para la versión web: terminal interactiva, laboratorio de ciberseguridad y enlaces a los certificados.")
+    c.drawString(M, M - 6, "Escanea el código QR para la versión web: terminal interactiva y laboratorio de ciberseguridad. Los certificados son enlaces en este PDF.")
     assert yi > M and yd > M, ("No cabe en una página", yi, yd)
     c.showPage()
     c.save()
