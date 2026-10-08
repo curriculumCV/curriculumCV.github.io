@@ -1,0 +1,702 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-08T16:54:35Z",
+  "title": "Design System: Currículum de Carlos Santos Jiménez",
+  "extensions": {
+    "colorMeta": {
+      "bg": {
+        "role": "neutral",
+        "displayName": "Papel",
+        "canonical": "#f7f8fa",
+        "tonalRamp": [
+          "oklch(15% 0.005 250)",
+          "oklch(25% 0.005 250)",
+          "oklch(36% 0.005 250)",
+          "oklch(48% 0.005 250)",
+          "oklch(60% 0.005 250)",
+          "oklch(72% 0.005 250)",
+          "oklch(84% 0.005 250)",
+          "oklch(95% 0.005 250)"
+        ],
+        "dark": "#0b1120"
+      },
+      "bg-2": {
+        "role": "neutral",
+        "displayName": "Blanco",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(15% 0.0 250)",
+          "oklch(25% 0.0 250)",
+          "oklch(36% 0.0 250)",
+          "oklch(48% 0.0 250)",
+          "oklch(60% 0.0 250)",
+          "oklch(72% 0.0 250)",
+          "oklch(84% 0.0 250)",
+          "oklch(95% 0.0 250)"
+        ],
+        "dark": "#111a2e"
+      },
+      "bg-3": {
+        "role": "neutral",
+        "displayName": "Papel hundido",
+        "canonical": "#eef1f5",
+        "tonalRamp": [
+          "oklch(15% 0.008 250)",
+          "oklch(25% 0.008 250)",
+          "oklch(36% 0.008 250)",
+          "oklch(48% 0.008 250)",
+          "oklch(60% 0.008 250)",
+          "oklch(72% 0.008 250)",
+          "oklch(84% 0.008 250)",
+          "oklch(95% 0.008 250)"
+        ],
+        "dark": "#172238"
+      },
+      "fg": {
+        "role": "neutral",
+        "displayName": "Tinta",
+        "canonical": "#0f172a",
+        "tonalRamp": [
+          "oklch(15% 0.04 250)",
+          "oklch(25% 0.04 250)",
+          "oklch(36% 0.04 250)",
+          "oklch(48% 0.04 250)",
+          "oklch(60% 0.04 250)",
+          "oklch(72% 0.04 250)",
+          "oklch(84% 0.04 250)",
+          "oklch(95% 0.04 250)"
+        ],
+        "dark": "#e6edf6"
+      },
+      "fg-2": {
+        "role": "neutral",
+        "displayName": "Tinta media",
+        "canonical": "#3f4b5e",
+        "tonalRamp": [
+          "oklch(15% 0.03 250)",
+          "oklch(25% 0.03 250)",
+          "oklch(36% 0.03 250)",
+          "oklch(48% 0.03 250)",
+          "oklch(60% 0.03 250)",
+          "oklch(72% 0.03 250)",
+          "oklch(84% 0.03 250)",
+          "oklch(95% 0.03 250)"
+        ],
+        "dark": "#b4c0d2"
+      },
+      "fg-3": {
+        "role": "neutral",
+        "displayName": "Tinta gris",
+        "canonical": "#5b6778",
+        "tonalRamp": [
+          "oklch(15% 0.025 250)",
+          "oklch(25% 0.025 250)",
+          "oklch(36% 0.025 250)",
+          "oklch(48% 0.025 250)",
+          "oklch(60% 0.025 250)",
+          "oklch(72% 0.025 250)",
+          "oklch(84% 0.025 250)",
+          "oklch(95% 0.025 250)"
+        ],
+        "dark": "#8d9bb1"
+      },
+      "linea": {
+        "role": "neutral",
+        "displayName": "Regla",
+        "canonical": "#dfe4ea",
+        "tonalRamp": [
+          "oklch(15% 0.01 250)",
+          "oklch(25% 0.01 250)",
+          "oklch(36% 0.01 250)",
+          "oklch(48% 0.01 250)",
+          "oklch(60% 0.01 250)",
+          "oklch(72% 0.01 250)",
+          "oklch(84% 0.01 250)",
+          "oklch(95% 0.01 250)"
+        ],
+        "dark": "#22304a"
+      },
+      "linea-fuerte": {
+        "role": "neutral",
+        "displayName": "Regla fuerte",
+        "canonical": "#c5ccd6",
+        "tonalRamp": [
+          "oklch(15% 0.015 250)",
+          "oklch(25% 0.015 250)",
+          "oklch(36% 0.015 250)",
+          "oklch(48% 0.015 250)",
+          "oklch(60% 0.015 250)",
+          "oklch(72% 0.015 250)",
+          "oklch(84% 0.015 250)",
+          "oklch(95% 0.015 250)"
+        ],
+        "dark": "#34456a"
+      },
+      "acento": {
+        "role": "primary",
+        "displayName": "Teal profundo",
+        "canonical": "#0e7a6f",
+        "tonalRamp": [
+          "oklch(15% 0.09 175)",
+          "oklch(25% 0.09 175)",
+          "oklch(36% 0.09 175)",
+          "oklch(48% 0.09 175)",
+          "oklch(60% 0.09 175)",
+          "oklch(72% 0.09 175)",
+          "oklch(84% 0.09 175)",
+          "oklch(95% 0.09 175)"
+        ],
+        "dark": "#5eead4"
+      },
+      "acento-fuerte": {
+        "role": "primary",
+        "displayName": "Teal hondo",
+        "canonical": "#0a5f57",
+        "tonalRamp": [
+          "oklch(15% 0.08 175)",
+          "oklch(25% 0.08 175)",
+          "oklch(36% 0.08 175)",
+          "oklch(48% 0.08 175)",
+          "oklch(60% 0.08 175)",
+          "oklch(72% 0.08 175)",
+          "oklch(84% 0.08 175)",
+          "oklch(95% 0.08 175)"
+        ],
+        "dark": "#99f6e4"
+      },
+      "acento-suave": {
+        "role": "primary",
+        "displayName": "Teal al 10 %",
+        "canonical": "rgb(14 122 111 / .10)",
+        "tonalRamp": [
+          "oklch(15% 0.05 175)",
+          "oklch(25% 0.05 175)",
+          "oklch(36% 0.05 175)",
+          "oklch(48% 0.05 175)",
+          "oklch(60% 0.05 175)",
+          "oklch(72% 0.05 175)",
+          "oklch(84% 0.05 175)",
+          "oklch(95% 0.05 175)"
+        ],
+        "dark": "rgb(94 234 212 / .12)"
+      },
+      "acento-contraste": {
+        "role": "primary",
+        "displayName": "Blanco sobre teal",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(15% 0.0 175)",
+          "oklch(25% 0.0 175)",
+          "oklch(36% 0.0 175)",
+          "oklch(48% 0.0 175)",
+          "oklch(60% 0.0 175)",
+          "oklch(72% 0.0 175)",
+          "oklch(84% 0.0 175)",
+          "oklch(95% 0.0 175)"
+        ],
+        "dark": "#06201c"
+      },
+      "seleccion": {
+        "role": "primary",
+        "displayName": "Selección teal",
+        "canonical": "rgb(14 122 111 / .22)",
+        "tonalRamp": [
+          "oklch(15% 0.06 175)",
+          "oklch(25% 0.06 175)",
+          "oklch(36% 0.06 175)",
+          "oklch(48% 0.06 175)",
+          "oklch(60% 0.06 175)",
+          "oklch(72% 0.06 175)",
+          "oklch(84% 0.06 175)",
+          "oklch(95% 0.06 175)"
+        ],
+        "dark": "rgb(94 234 212 / .25)"
+      },
+      "peligro": {
+        "role": "tertiary",
+        "displayName": "Rojo de riesgo",
+        "canonical": "#b42318",
+        "tonalRamp": [
+          "oklch(15% 0.17 28)",
+          "oklch(25% 0.17 28)",
+          "oklch(36% 0.17 28)",
+          "oklch(48% 0.17 28)",
+          "oklch(60% 0.17 28)",
+          "oklch(72% 0.17 28)",
+          "oklch(84% 0.17 28)",
+          "oklch(95% 0.17 28)"
+        ],
+        "dark": "#fda4af"
+      },
+      "peligro-suave": {
+        "role": "tertiary",
+        "displayName": "Rojo al 10 %",
+        "canonical": "rgb(180 35 24 / .10)",
+        "tonalRamp": [
+          "oklch(15% 0.08 28)",
+          "oklch(25% 0.08 28)",
+          "oklch(36% 0.08 28)",
+          "oklch(48% 0.08 28)",
+          "oklch(60% 0.08 28)",
+          "oklch(72% 0.08 28)",
+          "oklch(84% 0.08 28)",
+          "oklch(95% 0.08 28)"
+        ],
+        "dark": "rgb(253 164 175 / .12)"
+      },
+      "aviso": {
+        "role": "tertiary",
+        "displayName": "Ámbar de aviso",
+        "canonical": "#9a5b00",
+        "tonalRamp": [
+          "oklch(15% 0.13 70)",
+          "oklch(25% 0.13 70)",
+          "oklch(36% 0.13 70)",
+          "oklch(48% 0.13 70)",
+          "oklch(60% 0.13 70)",
+          "oklch(72% 0.13 70)",
+          "oklch(84% 0.13 70)",
+          "oklch(95% 0.13 70)"
+        ],
+        "dark": "#fcd34d"
+      },
+      "aviso-suave": {
+        "role": "tertiary",
+        "displayName": "Ámbar al 12 %",
+        "canonical": "rgb(154 91 0 / .12)",
+        "tonalRamp": [
+          "oklch(15% 0.07 70)",
+          "oklch(25% 0.07 70)",
+          "oklch(36% 0.07 70)",
+          "oklch(48% 0.07 70)",
+          "oklch(60% 0.07 70)",
+          "oklch(72% 0.07 70)",
+          "oklch(84% 0.07 70)",
+          "oklch(95% 0.07 70)"
+        ],
+        "dark": "rgb(252 211 77 / .12)"
+      },
+      "ok": {
+        "role": "tertiary",
+        "displayName": "Ok (alias del acento)",
+        "canonical": "#0e7a6f",
+        "tonalRamp": [
+          "oklch(15% 0.09 175)",
+          "oklch(25% 0.09 175)",
+          "oklch(36% 0.09 175)",
+          "oklch(48% 0.09 175)",
+          "oklch(60% 0.09 175)",
+          "oklch(72% 0.09 175)",
+          "oklch(84% 0.09 175)",
+          "oklch(95% 0.09 175)"
+        ],
+        "dark": "#5eead4",
+        "note": "Mantener idéntico a acento."
+      },
+      "term-bg": {
+        "role": "tertiary",
+        "displayName": "Terminal: azul-negro",
+        "canonical": "#0d1322",
+        "tonalRamp": [
+          "oklch(15% 0.04 262)",
+          "oklch(25% 0.04 262)",
+          "oklch(36% 0.04 262)",
+          "oklch(48% 0.04 262)",
+          "oklch(60% 0.04 262)",
+          "oklch(72% 0.04 262)",
+          "oklch(84% 0.04 262)",
+          "oklch(95% 0.04 262)"
+        ],
+        "dark": "#0d1322",
+        "note": "No cambia entre temas."
+      },
+      "term-fg": {
+        "role": "tertiary",
+        "displayName": "Terminal: texto",
+        "canonical": "#d6e2f0",
+        "tonalRamp": [
+          "oklch(15% 0.02 250)",
+          "oklch(25% 0.02 250)",
+          "oklch(36% 0.02 250)",
+          "oklch(48% 0.02 250)",
+          "oklch(60% 0.02 250)",
+          "oklch(72% 0.02 250)",
+          "oklch(84% 0.02 250)",
+          "oklch(95% 0.02 250)"
+        ],
+        "dark": "#d6e2f0"
+      },
+      "term-fg-2": {
+        "role": "tertiary",
+        "displayName": "Terminal: atenuado",
+        "canonical": "#8fa3bd",
+        "tonalRamp": [
+          "oklch(15% 0.04 250)",
+          "oklch(25% 0.04 250)",
+          "oklch(36% 0.04 250)",
+          "oklch(48% 0.04 250)",
+          "oklch(60% 0.04 250)",
+          "oklch(72% 0.04 250)",
+          "oklch(84% 0.04 250)",
+          "oklch(95% 0.04 250)"
+        ],
+        "dark": "#8fa3bd"
+      },
+      "term-acento": {
+        "role": "tertiary",
+        "displayName": "Terminal: teal claro",
+        "canonical": "#5eead4",
+        "tonalRamp": [
+          "oklch(15% 0.13 175)",
+          "oklch(25% 0.13 175)",
+          "oklch(36% 0.13 175)",
+          "oklch(48% 0.13 175)",
+          "oklch(60% 0.13 175)",
+          "oklch(72% 0.13 175)",
+          "oklch(84% 0.13 175)",
+          "oklch(95% 0.13 175)"
+        ],
+        "dark": "#5eead4"
+      },
+      "term-ruta": {
+        "role": "tertiary",
+        "displayName": "Terminal: ruta",
+        "canonical": "#93c5fd",
+        "tonalRamp": [
+          "oklch(15% 0.11 255)",
+          "oklch(25% 0.11 255)",
+          "oklch(36% 0.11 255)",
+          "oklch(48% 0.11 255)",
+          "oklch(60% 0.11 255)",
+          "oklch(72% 0.11 255)",
+          "oklch(84% 0.11 255)",
+          "oklch(95% 0.11 255)"
+        ],
+        "dark": "#93c5fd"
+      },
+      "term-aviso": {
+        "role": "tertiary",
+        "displayName": "Terminal: ámbar",
+        "canonical": "#fbbf24",
+        "tonalRamp": [
+          "oklch(15% 0.17 85)",
+          "oklch(25% 0.17 85)",
+          "oklch(36% 0.17 85)",
+          "oklch(48% 0.17 85)",
+          "oklch(60% 0.17 85)",
+          "oklch(72% 0.17 85)",
+          "oklch(84% 0.17 85)",
+          "oklch(95% 0.17 85)"
+        ],
+        "dark": "#fbbf24"
+      },
+      "term-error": {
+        "role": "tertiary",
+        "displayName": "Terminal: rosa de error",
+        "canonical": "#fb7185",
+        "tonalRamp": [
+          "oklch(15% 0.16 10)",
+          "oklch(25% 0.16 10)",
+          "oklch(36% 0.16 10)",
+          "oklch(48% 0.16 10)",
+          "oklch(60% 0.16 10)",
+          "oklch(72% 0.16 10)",
+          "oklch(84% 0.16 10)",
+          "oklch(95% 0.16 10)"
+        ],
+        "dark": "#fb7185"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Solo el nombre (h1.nombre) en la columna lateral."
+      },
+      "headline": {
+        "displayName": "Título de sección",
+        "purpose": "h2.titulo en versalitas; pegajoso en escritorio con fondo al 88 % y desenfoque de 8 px. No es un kicker: es el título."
+      },
+      "subtitle": {
+        "displayName": "Rol",
+        "purpose": "Titular de rol bajo el nombre (p.rol), en fg-2."
+      },
+      "title": {
+        "displayName": "Título de ítem",
+        "purpose": "Puesto, título académico, certificación y título de tarjeta de laboratorio."
+      },
+      "body": {
+        "displayName": "Cuerpo",
+        "purpose": "Texto base con ss01 y cv11; raíz fluida clamp(16px, 0.92rem + 0.22vw, 21px)."
+      },
+      "body-prose": {
+        "displayName": "Prosa",
+        "purpose": "Perfil, intro de sección e item-cuerpo; máximo 68ch con text-wrap: pretty."
+      },
+      "caption": {
+        "displayName": "Subtítulo",
+        "purpose": "Empresa, centro y fechas de ítem (fg-3); títulos de grupo en 600."
+      },
+      "label": {
+        "displayName": "Etiqueta de navegación",
+        "purpose": "Enlaces del lateral, mayúsculas, con línea indicadora."
+      },
+      "label-datos": {
+        "displayName": "Etiqueta de datos",
+        "purpose": "dt de la rejilla de datos y th de la tabla, mayúsculas."
+      },
+      "mono": {
+        "displayName": "Mono",
+        "purpose": "Terminal, código inline, hashes, puertos, etiquetas de tecnologías y dd de datos. Solo lo que se ejecuta o se mide."
+      }
+    },
+    "shadows": [
+      {
+        "name": "sombra",
+        "value": "0 1px 2px rgb(15 23 42 / .06), 0 8px 24px -12px rgb(15 23 42 / .18)",
+        "purpose": "Única sombra de reposo: terminal y aro de la foto. Nunca en tarjetas, ítems ni chips.",
+        "dark": "0 1px 2px rgb(0 0 0 / .4), 0 12px 32px -12px rgb(0 0 0 / .6)"
+      },
+      {
+        "name": "aro-foto",
+        "value": "0 0 0 1px var(--linea), var(--sombra)",
+        "purpose": "Foto de perfil, junto a un borde de 2px en bg-2."
+      },
+      {
+        "name": "foco-superficie",
+        "value": "0 0 0 3px var(--acento-suave), var(--sombra)",
+        "purpose": "Terminal en :focus-within, con border-color: var(--acento)."
+      },
+      {
+        "name": "foco-campo",
+        "value": "0 0 0 3px var(--acento-suave)",
+        "purpose": "Inputs y selects en :focus-visible, con border-color: var(--acento) y sin outline."
+      },
+      {
+        "name": "foco-global",
+        "value": "outline: 3px solid var(--acento); outline-offset: 3px; border-radius: 6px",
+        "purpose": "Todo elemento enfocable por teclado (:focus-visible). En la salida de la terminal, outline-color: var(--term-acento) y offset -3px."
+      }
+    ],
+    "motion": [
+      {
+        "name": "facil",
+        "value": "cubic-bezier(.2, .7, .2, 1)",
+        "purpose": "Única curva del sistema (ease-out suave)."
+      },
+      {
+        "name": "rapido",
+        "value": "140ms",
+        "purpose": "Color, borde, fondo y transform de botones, chips, enlaces y campos."
+      },
+      {
+        "name": "normal",
+        "value": "260ms",
+        "purpose": "Opacidad de ítems, línea de navegación, barra del medidor, aparición de filas."
+      },
+      {
+        "name": "entrada",
+        "value": "entrar .7s var(--facil) both; animation-delay: calc(var(--i, 0) * 80ms)",
+        "purpose": "Una sola entrada orquestada al cargar (translateY 10px → 0, opacidad 0 → 1) para .entrada; solo con .js y prefers-reduced-motion: no-preference."
+      },
+      {
+        "name": "pulsar",
+        "value": "transform: scale(.97)",
+        "purpose": ":active de botones y chips-botón."
+      },
+      {
+        "name": "escaneo",
+        "value": "transform var(--duracion-escaneo, 1.7s) linear",
+        "purpose": "Barrido de la línea de progreso del escáner de puertos; sin transición bajo prefers-reduced-motion: reduce."
+      },
+      {
+        "name": "aparecer-fila",
+        "value": "opacity 0 → 1, translateY(4px) → 0, var(--normal) var(--facil) both",
+        "purpose": "Cada fila nueva de la tabla del escáner."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "item-2col",
+        "value": "40em",
+        "purpose": "Ítems en dos columnas; por debajo, la tabla se apila en pares."
+      },
+      {
+        "name": "gutter-md",
+        "value": "48em",
+        "purpose": "Gutter de 2.5rem y padding superior de 4rem."
+      },
+      {
+        "name": "lateral",
+        "value": "64em",
+        "purpose": "Rejilla de dos columnas, lateral pegajoso, navegación visible, títulos de sección pegajosos."
+      },
+      {
+        "name": "labs-grid",
+        "value": "72em",
+        "purpose": "Tarjetas del laboratorio en repeat(auto-fit, minmax(22rem, 1fr))."
+      },
+      {
+        "name": "ancho",
+        "value": "100em",
+        "purpose": "Contenedor de 88rem para teles y monitores anchos."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Botón primario",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Píldora teal para la acción principal (Llamar, Escanear). Hover a teal hondo; pulsado a 97 %.",
+      "html": "<a class=\"ds-boton ds-boton-primario\" href=\"#\"><svg class=\"ds-ico\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.5 2.7.7a2 2 0 0 1 1.9 2z\"/></svg>Llamar</a>",
+      "css": ".ds-boton { display: inline-flex; align-items: center; justify-content: center; gap: .5rem; min-height: 2.75rem; padding: .55rem 1.1rem; border: 1px solid var(--linea-fuerte, #c5ccd6); border-radius: 999px; background: var(--bg-2, #fff); color: var(--fg, #0f172a); font-family: \"Onest\", \"Onest Fallback\", ui-sans-serif, system-ui, sans-serif; font-weight: 600; text-decoration: none; line-height: 1; cursor: pointer; transition: background-color 140ms cubic-bezier(.2,.7,.2,1), border-color 140ms cubic-bezier(.2,.7,.2,1), color 140ms cubic-bezier(.2,.7,.2,1), transform 140ms cubic-bezier(.2,.7,.2,1); } .ds-boton:hover { border-color: var(--fg-3, #5b6778); background: var(--bg-3, #eef1f5); } .ds-boton:active { transform: scale(.97); } .ds-boton:focus-visible { outline: 3px solid var(--acento, #0e7a6f); outline-offset: 3px; } .ds-boton-primario { background: var(--acento, #0e7a6f); border-color: var(--acento, #0e7a6f); color: var(--acento-contraste, #fff); } .ds-boton-primario:hover { background: var(--acento-fuerte, #0a5f57); border-color: var(--acento-fuerte, #0a5f57); color: var(--acento-contraste, #fff); } .ds-ico { width: 1.1em; height: 1.1em; flex: none; fill: none; stroke: currentColor; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; vertical-align: -0.2em; } .ds-ico-ext { width: .85em; height: .85em; margin-left: .25em; }"
+    },
+    {
+      "name": "Botón secundario",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Píldora blanca con borde de 1 px para acciones secundarias (Escribir, Imprimir). Hover: borde gris y fondo hundido.",
+      "html": "<a class=\"ds-boton\" href=\"#\"><svg class=\"ds-ico\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"/><path d=\"m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7\"/></svg>Escribir</a>",
+      "css": ".ds-boton { display: inline-flex; align-items: center; justify-content: center; gap: .5rem; min-height: 2.75rem; padding: .55rem 1.1rem; border: 1px solid var(--linea-fuerte, #c5ccd6); border-radius: 999px; background: var(--bg-2, #fff); color: var(--fg, #0f172a); font-family: \"Onest\", \"Onest Fallback\", ui-sans-serif, system-ui, sans-serif; font-weight: 600; text-decoration: none; line-height: 1; cursor: pointer; transition: background-color 140ms cubic-bezier(.2,.7,.2,1), border-color 140ms cubic-bezier(.2,.7,.2,1), color 140ms cubic-bezier(.2,.7,.2,1), transform 140ms cubic-bezier(.2,.7,.2,1); } .ds-boton:hover { border-color: var(--fg-3, #5b6778); background: var(--bg-3, #eef1f5); } .ds-boton:active { transform: scale(.97); } .ds-boton:focus-visible { outline: 3px solid var(--acento, #0e7a6f); outline-offset: 3px; } .ds-ico { width: 1.1em; height: 1.1em; flex: none; fill: none; stroke: currentColor; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; vertical-align: -0.2em; } .ds-ico-ext { width: .85em; height: .85em; margin-left: .25em; }"
+    },
+    {
+      "name": "Botón de icono",
+      "kind": "button",
+      "refersTo": "button-icon",
+      "description": "Botón secundario cuadrado de 2.75rem con un solo icono (cambio de tema, mostrar contraseña).",
+      "html": "<button class=\"ds-boton ds-boton-icono\" type=\"button\" aria-label=\"Cambiar a tema oscuro\"><svg class=\"ds-ico\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"4\"/><path d=\"M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4\"/></svg></button>",
+      "css": ".ds-boton { display: inline-flex; align-items: center; justify-content: center; gap: .5rem; min-height: 2.75rem; padding: .55rem 1.1rem; border: 1px solid var(--linea-fuerte, #c5ccd6); border-radius: 999px; background: var(--bg-2, #fff); color: var(--fg, #0f172a); font-family: \"Onest\", \"Onest Fallback\", ui-sans-serif, system-ui, sans-serif; font-weight: 600; text-decoration: none; line-height: 1; cursor: pointer; transition: background-color 140ms cubic-bezier(.2,.7,.2,1), border-color 140ms cubic-bezier(.2,.7,.2,1), color 140ms cubic-bezier(.2,.7,.2,1), transform 140ms cubic-bezier(.2,.7,.2,1); } .ds-boton:hover { border-color: var(--fg-3, #5b6778); background: var(--bg-3, #eef1f5); } .ds-boton:active { transform: scale(.97); } .ds-boton:focus-visible { outline: 3px solid var(--acento, #0e7a6f); outline-offset: 3px; } .ds-boton-icono { width: 2.75rem; padding: 0; } .ds-boton-icono .ds-ico { width: 1.2em; height: 1.2em; } .ds-ico { width: 1.1em; height: 1.1em; flex: none; fill: none; stroke: currentColor; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; vertical-align: -0.2em; } .ds-ico-ext { width: .85em; height: .85em; margin-left: .25em; }"
+    },
+    {
+      "name": "Chips",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Chip informativo (habilidades), chip de foco teal para los dos campos de especialización y chip-botón mono que escribe un comando en la terminal.",
+      "html": "<div class=\"ds-chips\"><span class=\"ds-chip ds-chip-foco\"><svg class=\"ds-ico\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 5a3 3 0 1 0-5.9.6 4 4 0 0 0-2 7 4 4 0 0 0 .4 6.9A3 3 0 1 0 12 18z\"/><path d=\"M12 5a3 3 0 1 1 5.9.6 4 4 0 0 1 2 7 4 4 0 0 1-.4 6.9A3 3 0 1 1 12 18z\"/><path d=\"M12 5v13\"/></svg>Inteligencia artificial</span><span class=\"ds-chip ds-chip-foco\"><svg class=\"ds-ico\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M20 13c0 5-3.5 7.5-7.7 8.9a1 1 0 0 1-.6 0C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.2-2.7a1 1 0 0 1 1.3 0C14.3 3.8 16.8 5 19 5a1 1 0 0 1 1 1z\"/><path d=\"m9 12 2 2 4-4\"/></svg>Ciberseguridad</span><span class=\"ds-chip\">Java</span><span class=\"ds-chip\">Kotlin</span><span class=\"ds-chip\">Python</span><button type=\"button\" class=\"ds-chip ds-chip-boton\">skills</button><button type=\"button\" class=\"ds-chip ds-chip-boton\">¿Sabes Python?</button></div>",
+      "css": ".ds-chips { display: flex; flex-wrap: wrap; gap: .5rem; font-family: \"Onest\", \"Onest Fallback\", ui-sans-serif, system-ui, sans-serif; } .ds-chip { display: inline-flex; align-items: center; gap: .4rem; min-height: 2.1rem; padding: .3rem .8rem; border: 1px solid var(--linea, #dfe4ea); border-radius: 999px; background: var(--bg-2, #fff); color: var(--fg-2, #3f4b5e); font: inherit; font-size: .9rem; font-weight: 500; line-height: 1.2; } .ds-chip-foco { border-color: transparent; background: var(--acento-suave, rgb(14 122 111 / .10)); color: var(--acento, #0e7a6f); font-weight: 600; } .ds-chip-boton { cursor: pointer; font-family: \"JetBrains Mono\", ui-monospace, Menlo, Consolas, monospace; font-size: .85rem; min-height: 2.5rem; transition: border-color 140ms cubic-bezier(.2,.7,.2,1), color 140ms cubic-bezier(.2,.7,.2,1); } .ds-chip-boton:hover { border-color: var(--acento, #0e7a6f); color: var(--acento, #0e7a6f); } .ds-chip-boton:active { transform: scale(.97); } .ds-chip-boton:focus-visible { outline: 3px solid var(--acento, #0e7a6f); outline-offset: 3px; } .ds-ico { width: 1.1em; height: 1.1em; flex: none; fill: none; stroke: currentColor; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; vertical-align: -0.2em; } .ds-ico-ext { width: .85em; height: .85em; margin-left: .25em; }"
+    },
+    {
+      "name": "Navegación lateral",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Lista vertical de etiquetas en versalitas con línea indicadora que se extiende al 100 % en hover y en el enlace activo.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Secciones\"><ul><li><a href=\"#\" aria-current=\"true\"><span class=\"ds-nav-linea\"></span>Perfil</a></li><li><a href=\"#\"><span class=\"ds-nav-linea\"></span>Terminal</a></li><li><a href=\"#\"><span class=\"ds-nav-linea\"></span>Experiencia</a></li><li><a href=\"#\"><span class=\"ds-nav-linea\"></span>Contacto</a></li></ul></nav>",
+      "css": ".ds-nav ul { margin: 0; padding: 0; list-style: none; display: grid; font-family: \"Onest\", \"Onest Fallback\", ui-sans-serif, system-ui, sans-serif; } .ds-nav a { display: flex; align-items: center; gap: .9rem; padding: .25rem 0; min-height: 1.6rem; font-size: .72rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--fg-3, #5b6778); text-decoration: none; transition: color 140ms cubic-bezier(.2,.7,.2,1); } .ds-nav-linea { width: 4rem; height: 1px; background: var(--linea-fuerte, #c5ccd6); transform: scaleX(.5); transform-origin: left center; transition: transform 260ms cubic-bezier(.2,.7,.2,1), background-color 140ms cubic-bezier(.2,.7,.2,1); } .ds-nav a:hover, .ds-nav a[aria-current=\"true\"] { color: var(--fg, #0f172a); } .ds-nav a:hover .ds-nav-linea, .ds-nav a[aria-current=\"true\"] .ds-nav-linea { transform: none; background: var(--fg, #0f172a); } .ds-nav a:focus-visible { outline: 3px solid var(--acento, #0e7a6f); outline-offset: 3px; border-radius: 6px; }"
+    },
+    {
+      "name": "Ítem de lista",
+      "kind": "card",
+      "refersTo": "item",
+      "description": "Fila de experiencia/formación: regla de 1 px, dos columnas desde 40em, hover en fondo hundido con 6 px de radio y etiquetas mono en teal.",
+      "html": "<ol class=\"ds-lista\"><li class=\"ds-item\"><div><h3 class=\"ds-item-titulo\">Desarrollador de páginas web</h3><p class=\"ds-item-sub\">Comunitega, S.L.</p></div><div class=\"ds-item-cuerpo\"><p>Sitios en WordPress para clientes reales: maquetación responsiva, SEO e integración de plugins y base de datos.</p><p>Proyecto entregado: <a class=\"ds-enlace\" href=\"#\">Centro Óptico Alhazen<svg class=\"ds-ico ds-ico-ext\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M15 3h6v6\"/><path d=\"M10 14 21 3\"/><path d=\"M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6\"/></svg></a></p><ul class=\"ds-etiquetas\"><li>WordPress</li><li>HTML</li><li>CSS</li><li>SEO</li></ul></div></li><li class=\"ds-item\"><div><h3 class=\"ds-item-titulo\">Manipulador de alimentos</h3><p class=\"ds-item-sub\">Delfín Ultracongelados</p></div><div class=\"ds-item-cuerpo\"><p>Cadena de producción con normas estrictas de higiene y seguridad.</p></div></li></ol>",
+      "css": ".ds-lista { margin: 0; padding: 0; list-style: none; display: grid; font-family: \"Onest\", \"Onest Fallback\", ui-sans-serif, system-ui, sans-serif; color: var(--fg, #0f172a); line-height: 1.6; } .ds-item { display: grid; gap: .35rem 2rem; padding: 1.4rem .75rem; margin-inline: -.75rem; border-top: 1px solid var(--linea, #dfe4ea); border-radius: 6px; transition: opacity 260ms cubic-bezier(.2,.7,.2,1), background-color 260ms cubic-bezier(.2,.7,.2,1); } .ds-item:last-child { border-bottom: 1px solid var(--linea, #dfe4ea); } .ds-item:hover, .ds-item:focus-within { background: var(--bg-3, #eef1f5); } .ds-lista:hover .ds-item:not(:hover) { opacity: .55; } @media (min-width: 40em) { .ds-item { grid-template-columns: minmax(10rem, 14rem) minmax(0, 1fr); } } .ds-item h3, .ds-item p { margin: 0; } .ds-item-titulo { font-size: 1.1rem; font-weight: 600; line-height: 1.2; letter-spacing: -0.015em; text-wrap: balance; } .ds-item-sub { font-size: .92rem; color: var(--fg-3, #5b6778); margin-top: .2rem; } .ds-item-cuerpo { display: grid; gap: .75rem; max-width: 68ch; color: var(--fg-2, #3f4b5e); text-wrap: pretty; } .ds-enlace { display: inline-flex; align-items: center; gap: .35rem; font-weight: 600; color: var(--acento, #0e7a6f); text-decoration-thickness: 1px; text-underline-offset: .18em; } .ds-enlace:hover { color: var(--acento-fuerte, #0a5f57); } .ds-etiquetas { display: flex; flex-wrap: wrap; gap: .4rem; margin: .25rem 0 0; padding: 0; list-style: none; } .ds-etiquetas li { font-family: \"JetBrains Mono\", ui-monospace, Menlo, Consolas, monospace; font-size: .78rem; padding: .2rem .55rem; border-radius: 999px; background: var(--acento-suave, rgb(14 122 111 / .10)); color: var(--acento, #0e7a6f); } .ds-ico { width: 1.1em; height: 1.1em; flex: none; fill: none; stroke: currentColor; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; vertical-align: -0.2em; } .ds-ico-ext { width: .85em; height: .85em; margin-left: .25em; }"
+    },
+    {
+      "name": "Terminal",
+      "kind": "custom",
+      "refersTo": "terminal",
+      "description": "La firma del sistema: única superficie siempre oscura, con borde de 1 px, sombra de superficie, barra con tres puntos, salida con role=log y prompt teal.",
+      "html": "<div class=\"ds-terminal\"><div class=\"ds-term-barra\" aria-hidden=\"true\"><span class=\"ds-term-punto\"></span><span class=\"ds-term-punto\"></span><span class=\"ds-term-punto\"></span><span class=\"ds-term-titulo\">carlos@cv: ~</span></div><div class=\"ds-term-salida\" role=\"log\" tabindex=\"0\"><p class=\"ds-term-ok\">Bienvenido al CV interactivo de Carlos Santos Jiménez.</p><p class=\"ds-term-dim\">Escribe help para ver los comandos o hazme una pregunta como en una entrevista.</p><p class=\"ds-term-cmd\"><span class=\"ds-term-usuario\">carlos@cv</span>:<span class=\"ds-term-ruta\">~</span>$ skills</p><p class=\"ds-term-ok\">Desarrollo:</p><p>  Java · Kotlin · Flutter · Python · JavaScript</p><p class=\"ds-term-warn\">Especialización: Inteligencia artificial · Ciberseguridad</p><p class=\"ds-term-err\">cat: notas.txt: No existe el archivo</p></div><form class=\"ds-term-entrada\" onsubmit=\"return false\"><label class=\"ds-term-prompt\" for=\"ds-term-input\"><span class=\"ds-term-usuario\">carlos@cv</span>:<span class=\"ds-term-ruta\">~</span>$</label><input class=\"ds-term-input\" id=\"ds-term-input\" type=\"text\" placeholder=\"help\" autocomplete=\"off\" spellcheck=\"false\"></form></div>",
+      "css": ".ds-terminal { border: 1px solid var(--linea-fuerte, #c5ccd6); border-radius: 10px; background: var(--term-bg, #0d1322); color: var(--term-fg, #d6e2f0); box-shadow: var(--sombra, 0 1px 2px rgb(15 23 42 / .06), 0 8px 24px -12px rgb(15 23 42 / .18)); overflow: hidden; font-family: \"JetBrains Mono\", ui-monospace, Menlo, Consolas, monospace; font-size: .9rem; line-height: 1.55; } .ds-terminal:focus-within { border-color: var(--acento, #0e7a6f); box-shadow: 0 0 0 3px var(--acento-suave, rgb(14 122 111 / .10)), var(--sombra, 0 1px 2px rgb(15 23 42 / .06), 0 8px 24px -12px rgb(15 23 42 / .18)); } .ds-term-barra { display: flex; align-items: center; gap: .45rem; padding: .6rem .9rem; background: rgb(255 255 255 / .04); border-bottom: 1px solid rgb(255 255 255 / .08); } .ds-term-punto { width: .7rem; height: .7rem; border-radius: 50%; background: rgb(255 255 255 / .18); } .ds-term-titulo { margin-left: .5rem; font-size: .8rem; color: var(--term-fg-2, #8fa3bd); } .ds-term-salida { height: 12rem; padding: .9rem 1rem .5rem; overflow-y: auto; white-space: pre-wrap; overflow-wrap: anywhere; scrollbar-width: thin; scrollbar-color: rgb(255 255 255 / .2) transparent; } .ds-term-salida p { margin: 0; } .ds-term-salida:focus-visible { outline: 3px solid var(--term-acento, #5eead4); outline-offset: -3px; } .ds-term-usuario { color: var(--term-acento, #5eead4); } .ds-term-ruta { color: var(--term-ruta, #93c5fd); } .ds-term-dim { color: var(--term-fg-2, #8fa3bd); } .ds-term-ok { color: var(--term-acento, #5eead4); } .ds-term-warn { color: var(--term-aviso, #fbbf24); } .ds-term-err { color: var(--term-error, #fb7185); } .ds-term-entrada { display: flex; align-items: center; gap: .5rem; padding: .5rem 1rem .9rem; margin: 0; } .ds-term-prompt { white-space: nowrap; } .ds-term-input { flex: 1 1 0; width: 0; min-width: 0; min-height: 2.5rem; padding: .25rem 0; border: 0; background: transparent; color: var(--term-fg, #d6e2f0); font: inherit; font-size: max(16px, 1em); caret-color: var(--term-acento, #5eead4); } .ds-term-input::placeholder { color: var(--term-fg-2, #8fa3bd); opacity: .7; } .ds-term-input:focus { outline: none; }"
+    },
+    {
+      "name": "Campo de formulario",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Input o select con borde de 1 px, 6 px de radio, fondo papel, 2.75rem de alto y anillo de foco teal de 3 px; variante con botón de icono pegado.",
+      "html": "<div class=\"ds-form\"><div class=\"ds-campo\"><label for=\"ds-in-1\">Texto</label><input id=\"ds-in-1\" type=\"text\" value=\"hola mundo\"></div><div class=\"ds-campo ds-campo-corto\"><label for=\"ds-in-2\">Algoritmo</label><select id=\"ds-in-2\"><option>SHA-256</option><option>SHA-1 (obsoleto)</option><option>SHA-512</option></select></div><div class=\"ds-campo\"><label for=\"ds-in-3\">Escribe una contraseña de prueba</label><div class=\"ds-campo-con-boton\"><input id=\"ds-in-3\" type=\"password\" placeholder=\"No uses una real\"><button type=\"button\" class=\"ds-boton ds-boton-icono\" aria-label=\"Mostrar contraseña\"><svg class=\"ds-ico\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/></svg></button></div></div></div>",
+      "css": ".ds-form { display: grid; gap: .8rem; font-family: \"Onest\", \"Onest Fallback\", ui-sans-serif, system-ui, sans-serif; color: var(--fg, #0f172a); } .ds-campo { display: grid; gap: .35rem; } .ds-campo label { font-size: .88rem; font-weight: 600; color: var(--fg-2, #3f4b5e); } .ds-campo input, .ds-campo select { width: 100%; min-height: 2.75rem; padding: .5rem .8rem; border: 1px solid var(--linea-fuerte, #c5ccd6); border-radius: 6px; background: var(--bg, #f7f8fa); color: var(--fg, #0f172a); font: inherit; font-size: max(16px, 1rem); transition: border-color 140ms cubic-bezier(.2,.7,.2,1), box-shadow 140ms cubic-bezier(.2,.7,.2,1); } .ds-campo input:focus-visible, .ds-campo select:focus-visible { outline: none; border-color: var(--acento, #0e7a6f); box-shadow: 0 0 0 3px var(--acento-suave, rgb(14 122 111 / .10)); } .ds-campo-corto { max-width: 16rem; } .ds-campo-con-boton { display: flex; gap: .5rem; } .ds-campo-con-boton input { flex: 1 1 0; width: 0; min-width: 0; } .ds-campo-con-boton .ds-boton-icono { border-radius: 6px; flex: none; } .ds-boton { display: inline-flex; align-items: center; justify-content: center; gap: .5rem; min-height: 2.75rem; padding: .55rem 1.1rem; border: 1px solid var(--linea-fuerte, #c5ccd6); border-radius: 999px; background: var(--bg-2, #fff); color: var(--fg, #0f172a); font-family: \"Onest\", \"Onest Fallback\", ui-sans-serif, system-ui, sans-serif; font-weight: 600; text-decoration: none; line-height: 1; cursor: pointer; transition: background-color 140ms cubic-bezier(.2,.7,.2,1), border-color 140ms cubic-bezier(.2,.7,.2,1), color 140ms cubic-bezier(.2,.7,.2,1), transform 140ms cubic-bezier(.2,.7,.2,1); } .ds-boton:hover { border-color: var(--fg-3, #5b6778); background: var(--bg-3, #eef1f5); } .ds-boton:active { transform: scale(.97); } .ds-boton:focus-visible { outline: 3px solid var(--acento, #0e7a6f); outline-offset: 3px; } .ds-boton-icono { width: 2.75rem; padding: 0; } .ds-boton-icono .ds-ico { width: 1.2em; height: 1.2em; } .ds-ico { width: 1.1em; height: 1.1em; flex: none; fill: none; stroke: currentColor; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; vertical-align: -0.2em; } .ds-ico-ext { width: .85em; height: .85em; margin-left: .25em; }"
+    },
+    {
+      "name": "Tarjeta de laboratorio con medidor",
+      "kind": "card",
+      "refersTo": "lab-card",
+      "description": "Tarjeta de borde 1 px y 10 px de radio sin sombra; resultado separado por regla con medidor-píldora por niveles (rojo, ámbar, teal), rejilla de datos mono y veredicto.",
+      "html": "<article class=\"ds-lab\"><h3 class=\"ds-lab-titulo\">Fortaleza de una contraseña</h3><p class=\"ds-lab-desc\">Calcula la entropía (bits) y cuánto tardaría un ataque de fuerza bruta a 10 000 millones de intentos por segundo.</p><div class=\"ds-lab-resultado\"><div class=\"ds-medidor\" role=\"meter\" aria-valuemin=\"0\" aria-valuemax=\"128\" aria-valuenow=\"62\" aria-label=\"Entropía estimada\" data-nivel=\"3\"><span class=\"ds-medidor-barra\" style=\"transform: scaleX(.48)\"></span></div><dl class=\"ds-datos\"><div><dt>Longitud</dt><dd>12</dd></div><div><dt>Alfabeto</dt><dd>72 símbolos</dd></div><div><dt>Entropía</dt><dd>62 bits</dd></div><div><dt>Fuerza bruta</dt><dd>7 años</dd></div></dl><p class=\"ds-lab-veredicto\" data-tono=\"bien\">Bien: aguanta un ataque de fuerza bruta razonable.</p></div></article>",
+      "css": ".ds-lab { display: grid; gap: .9rem; align-content: start; padding: 1.4rem; border: 1px solid var(--linea, #dfe4ea); border-radius: 10px; background: var(--bg-2, #fff); color: var(--fg, #0f172a); font-family: \"Onest\", \"Onest Fallback\", ui-sans-serif, system-ui, sans-serif; line-height: 1.6; } .ds-lab h3, .ds-lab p, .ds-lab dl, .ds-lab dd { margin: 0; } .ds-lab-titulo { font-size: 1.1rem; font-weight: 600; line-height: 1.2; letter-spacing: -0.015em; } .ds-lab-desc { color: var(--fg-2, #3f4b5e); font-size: .95rem; text-wrap: pretty; } .ds-lab-resultado { display: grid; gap: .8rem; padding-top: .9rem; border-top: 1px solid var(--linea, #dfe4ea); } .ds-medidor { height: .5rem; border-radius: 999px; background: var(--bg-3, #eef1f5); overflow: hidden; } .ds-medidor-barra { display: block; height: 100%; width: 100%; border-radius: inherit; background: var(--peligro, #b42318); transform: scaleX(0); transform-origin: left center; transition: transform 260ms cubic-bezier(.2,.7,.2,1), background-color 260ms cubic-bezier(.2,.7,.2,1); } .ds-medidor[data-nivel=\"2\"] .ds-medidor-barra { background: var(--aviso, #9a5b00); } .ds-medidor[data-nivel=\"3\"] .ds-medidor-barra, .ds-medidor[data-nivel=\"4\"] .ds-medidor-barra { background: var(--ok, #0e7a6f); } .ds-datos { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .6rem 1rem; } .ds-datos dt { font-size: .78rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--fg-3, #5b6778); } .ds-datos dd { font-family: \"JetBrains Mono\", ui-monospace, Menlo, Consolas, monospace; font-size: .95rem; color: var(--fg, #0f172a); overflow-wrap: anywhere; } .ds-lab-veredicto { font-size: .95rem; color: var(--fg-2, #3f4b5e); text-wrap: pretty; } .ds-lab-veredicto[data-tono=\"mal\"] { color: var(--peligro, #b42318); } .ds-lab-veredicto[data-tono=\"regular\"] { color: var(--aviso, #9a5b00); } .ds-lab-veredicto[data-tono=\"bien\"] { color: var(--ok, #0e7a6f); }"
+    },
+    {
+      "name": "Tabla con estados",
+      "kind": "custom",
+      "refersTo": "estado-open",
+      "description": "Tabla del escáner: cifras tabulares, cabeceras en etiqueta de datos, primera columna mono y píldoras de estado teal / gris / rojo.",
+      "html": "<table class=\"ds-tabla\"><thead><tr><th scope=\"col\">Puerto</th><th scope=\"col\">Servicio</th><th scope=\"col\">Estado</th><th scope=\"col\">Nota</th></tr></thead><tbody><tr><td>22</td><td>ssh</td><td><span class=\"ds-estado ds-estado-open\">abierto</span></td><td>Desactiva el acceso por contraseña; usa claves.</td></tr><tr><td>23</td><td>telnet</td><td><span class=\"ds-estado ds-estado-riesgo\">abierto · riesgo</span></td><td>Sin cifrado. Ciérralo.</td></tr><tr><td>3306</td><td>mysql</td><td><span class=\"ds-estado ds-estado-closed\">cerrado</span></td><td>Correcto: solo escucha en localhost.</td></tr></tbody></table>",
+      "css": ".ds-tabla { width: 100%; border-collapse: collapse; font-family: \"Onest\", \"Onest Fallback\", ui-sans-serif, system-ui, sans-serif; font-size: .9rem; font-variant-numeric: tabular-nums; color: var(--fg, #0f172a); line-height: 1.6; } .ds-tabla th, .ds-tabla td { padding: .5rem .6rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--linea, #dfe4ea); } .ds-tabla th { font-size: .78rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--fg-3, #5b6778); } .ds-tabla td:first-child { font-family: \"JetBrains Mono\", ui-monospace, Menlo, Consolas, monospace; } .ds-estado { display: inline-block; padding: .1rem .5rem; border-radius: 999px; font-size: .8rem; font-weight: 600; white-space: nowrap; } .ds-estado-open { background: var(--acento-suave, rgb(14 122 111 / .10)); color: var(--acento, #0e7a6f); } .ds-estado-closed { background: var(--bg-3, #eef1f5); color: var(--fg-3, #5b6778); } .ds-estado-riesgo { background: var(--peligro-suave, rgb(180 35 24 / .10)); color: var(--peligro, #b42318); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "El folio con terminal",
+    "overview": "Un folio limpio, frío y casi blanco sobre el que hay una sola ventana oscura: la terminal. Todo lo demás es tipografía y aire. El sistema sigue el canon del CV web de desarrollador (brittanychiang.com, leerob.com) ejecutado sin adorno: columna lateral fija con identidad y navegación, columna principal con secciones separadas por espacio y reglas de 1 px, un único acento verde-azulado que marca lo que se puede tocar y los dos focos de interés (inteligencia artificial y ciberseguridad), y un modo oscuro que invierte el folio a azul-negro sin cambiar la gramática.\n\nLa densidad es la de un documento, no la de un panel: medida de lectura de 68 caracteres, tamaño raíz que crece de 16 a 21 px con la pantalla para leerse en una tele o un proyector, listas con dos columnas (etiqueta a la izquierda, cuerpo a la derecha) y chips uniformes para las habilidades. La prueba sustituye a la afirmación: no hay barras de porcentaje ni tarjetas decorativas; las únicas superficies con borde propio son la terminal y las tres tarjetas del laboratorio, porque contienen controles.\n\nRechazos confirmados en la construcción: sin degradados, sin tarjetas con sombra como recurso compositivo, sin iconos de glifo (todos los iconos son SVG inline de trazo 1.75 px), sin texto en degradado y sin fuentes de terceros (Onest y JetBrains Mono autoalojadas en `fonts/`).",
+    "keyCharacteristics": [
+      "Fondo neutro frío y texto casi negro; en oscuro, azul-negro profundo y texto casi blanco.",
+      "Un solo acento teal (`acento`), reservado a enlaces, foco, estado activo, focos de interés y estado «ok».",
+      "Onest para todo lo que se lee; JetBrains Mono solo donde hay código, comandos o datos.",
+      "Separación por espacio y reglas de 1 px; la sombra en reposo existe solo en la terminal y en la foto.",
+      "Formas: píldoras para botones y chips, 10 px para superficies, 6 px para campos y filas.",
+      "Movimiento corto y con una sola curva (`cubic-bezier(.2, .7, .2, 1)`), con alternativa estática bajo `prefers-reduced-motion`."
+    ],
+    "rules": [
+      {
+        "name": "La regla del único acento",
+        "body": "El teal es el único color con intención. Marca enlaces, foco, estado activo, los dos focos de interés y el estado «ok»; nunca rellena una sección, un fondo decorativo ni un título.",
+        "section": "colors"
+      },
+      {
+        "name": "La regla del semáforo contenido",
+        "body": "Rojo y ámbar aparecen solo como respuesta a datos (medidor, veredicto, estado de puerto, líneas de terminal). Jamás como decoración ni fuera del laboratorio y la terminal.",
+        "section": "colors"
+      },
+      {
+        "name": "La regla de la terminal fija",
+        "body": "La terminal usa sus propios tokens `term-*` y no cambia entre tema claro y oscuro: es la única superficie siempre oscura.",
+        "section": "colors"
+      },
+      {
+        "name": "La regla de dos voces",
+        "body": "Onest para todo lo que se lee; JetBrains Mono solo donde hay código, comandos, hashes, puertos o cifras. Si un texto no se ejecuta ni se mide, no va en mono.",
+        "section": "typography"
+      },
+      {
+        "name": "La regla del título pequeño",
+        "body": "Las secciones se titulan con un `h2` de 0.8rem en versalitas con tracking 0.14em. No existen kickers ni eyebrows sobre los títulos: el título pequeño es el título.",
+        "section": "typography"
+      },
+      {
+        "name": "La regla de 68ch",
+        "body": "Toda prosa (`prosa`, `intro`, `item-cuerpo`, `contacto-texto`, `pie`) se limita a `--medida: 68ch`, con `text-wrap: pretty`; los títulos usan `text-wrap: balance`.",
+        "section": "typography"
+      },
+      {
+        "name": "La regla de la línea de 1 px",
+        "body": "Las secciones y los ítems se separan con espacio y reglas de 1 px, nunca con cajas sombreadas. La sombra en reposo existe solo en la terminal y la foto.",
+        "section": "elevation"
+      },
+      {
+        "name": "La regla del aro de foco",
+        "body": "El foco es siempre visible y siempre teal: contorno de 3 px con 3 px de separación, o anillo de 3 px en `acento-suave` cuando el elemento ya tiene borde.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do usar `acento` solo para enlaces, foco, estado activo, los dos chips de especialización y el estado «ok»; el resto de la página es neutra.",
+      "Do separar secciones con `clamp(3.5rem, 7vw, 6rem)` e ítems con reglas de 1 px en `linea`; la jerarquía la hacen el espacio y el peso.",
+      "Do titular cada sección con un `h2.titulo` de 0.8rem en versalitas con tracking 0.14em, pegajoso en escritorio.",
+      "Do mantener toda prosa dentro de 68ch con `text-wrap: pretty` y los títulos con `text-wrap: balance`.",
+      "Do usar JetBrains Mono únicamente para comandos, código, hashes, puertos y cifras.",
+      "Do dar a todo control una altura mínima de 2.75rem, borde de 1 px, píldora o 6 px de radio, y foco teal visible (contorno de 3 px o anillo de 3 px en `acento-suave`).",
+      "Do definir los estados hover solo bajo `(hover: hover) and (pointer: fine)` y encoger a `scale(.97)` al pulsar.",
+      "Do redefinir los mismos tokens para el tema oscuro (`data-theme=\"dark\"` y `prefers-color-scheme`) y dejar la terminal con sus tokens `term-*` sin cambios.",
+      "Do dibujar iconos como SVG inline del sprite, 1.1em, trazo 1.75 px, extremos redondeados, `currentColor`.",
+      "Do condicionar toda animación a `prefers-reduced-motion: no-preference` y usar solo `--facil`, 140 ms o 260 ms."
+    ],
+    "donts": [
+      "Don't añadir sombras a tarjetas, ítems o chips; la única sombra en reposo es la de la terminal y la foto.",
+      "Don't usar degradados, texto en degradado, fondos de sección de color ni más de un acento.",
+      "Don't mostrar rojo o ámbar fuera del laboratorio y la terminal, ni como decoración.",
+      "Don't poner kickers o eyebrows sobre los títulos, ni subir el `h2` de sección por encima de 0.8rem.",
+      "Don't cargar fuentes, scripts o iconos de terceros: Onest y JetBrains Mono viven en `fonts/` y los iconos en el sprite.",
+      "Don't representar habilidades con barras o porcentajes; los chips son uniformes y sin nivel.",
+      "Don't usar un radio distinto de 4, 6 o 10 px o la píldora, ni bordes de más de 1 px (salvo el aro de 2 px de la foto)."
+    ]
+  }
+}
