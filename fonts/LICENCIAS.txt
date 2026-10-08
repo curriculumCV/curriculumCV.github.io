@@ -1,0 +1,1 @@
+Onest: SIL Open Font License 1.1 (https://github.com/googlefonts/onest). JetBrains Mono: SIL Open Font License 1.1 (https://github.com/JetBrains/JetBrainsMono). Subconjunto latino, fuentes variables, descargadas de fonts.gstatic.com el 8-10-2026.
