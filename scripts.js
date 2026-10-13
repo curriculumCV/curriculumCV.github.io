@@ -13,7 +13,7 @@
     cualidades: ['Muy trabajador', 'Entusiasta', 'Muy cooperativo', 'Responsable', 'Perfeccionista', 'Amable', 'Extrovertido', 'Respetuoso'],
     idiomas: ['Español (nativo)', 'Inglés (B1)'],
     habilidades: {
-      'Desarrollo': ['Java', 'JavaFX', 'Kotlin', 'Flutter', 'Python', 'JavaScript', 'HTML', 'CSS', 'Scripting Bash'],
+      'Desarrollo': ['Java', 'JavaFX', 'Kotlin', 'Flutter', 'Python', 'JavaScript', 'TypeScript', 'HTML', 'CSS', 'C', 'C++', 'CMake', 'Swift', 'Scripting Bash'],
       'Datos': ['MariaDB', 'MongoDB'],
       'Sistemas y redes': ['Linux', 'Windows', 'Redes y Cisco', 'WordPress', 'SEO y rendimiento web'],
       'Hardware': ['Montaje y desmontaje de equipos', 'Crimpado de cables RJ45', 'Diagnóstico y reparación']
@@ -204,7 +204,7 @@
         ' / /      \\__ \\     Rol: ' + CV.rol,
         '/ /___   ___/ /     OS: Linux y Windows, sin preferencias',
         '\\____/  /____/      Shell: bash',
-        '                    Lenguajes: Java, Kotlin, Python, JS, Dart',
+        '                    Lenguajes: Java, Kotlin, Swift, Python, C, C++, JS/TS, Dart',
         '                    BD: MariaDB, MongoDB',
         '                    Foco: ' + lista(CV.intereses, ' + '),
         '                    Uptime: desde 2023 en la informática',
@@ -270,6 +270,9 @@
     { claves: ['java', 'javafx'], respuesta: 'Sí. Java es el lenguaje principal del ciclo de DAM; también hago interfaces de escritorio con JavaFX.' },
     { claves: ['kotlin', 'android'], respuesta: 'Sí. Programo en Kotlin, sobre todo orientado a desarrollo Android.' },
     { claves: ['flutter', 'dart', 'movil', 'móvil', 'app'], respuesta: 'Sí. Desarrollo apps multiplataforma con Flutter (Dart), además de Kotlin para Android.' },
+    { claves: ['typescript', 'ts'], respuesta: 'Sí. TypeScript además de JavaScript: tipado estático para proyectos web más grandes y mantenibles.' },
+    { claves: ['c++', 'cpp', 'cmake', ' c '], respuesta: 'Sí. C y C++ para programación de bajo nivel y rendimiento, con CMake para organizar y compilar los proyectos.' },
+    { claves: ['swift', 'ios', 'iphone', 'apple'], respuesta: 'Sí. Swift para desarrollo en el ecosistema Apple, además de Kotlin para Android y Flutter para multiplataforma.' },
     { claves: ['javascript', 'js', 'html', 'css', 'web', 'frontend', 'front-end'], respuesta: 'Sí. HTML, CSS y JavaScript: he desarrollado sitios reales en Comunitega (por ejemplo, centroopticoalhazen.com) y este CV está hecho a mano con ellos.' },
     { claves: ['wordpress', 'seo'], respuesta: 'Sí. En Comunitega desarrollé sitios en WordPress con optimización de rendimiento y SEO, plugins y base de datos.' },
     { claves: ['bash', 'script', 'shell', 'terminal', 'consola'], respuesta: 'Sí. Hago scripting en Bash para automatizar tareas en Linux. Esta terminal es un guiño a eso.' },

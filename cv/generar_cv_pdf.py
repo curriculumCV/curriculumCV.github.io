@@ -75,7 +75,7 @@ CERTIFICACIONES = [
 
 HABILIDADES = [
     ("Especialización", ["Inteligencia artificial", "Ciberseguridad"]),
-    ("Desarrollo", ["Java", "JavaFX", "Kotlin", "Flutter", "Python", "JavaScript", "HTML", "CSS", "Scripting Bash"]),
+    ("Desarrollo", ["Java", "JavaFX", "Kotlin", "Flutter", "Python", "JavaScript", "TypeScript", "HTML", "CSS", "C", "C++", "CMake", "Swift", "Scripting Bash"]),
     ("Datos", ["MariaDB", "MongoDB"]),
     ("Sistemas y redes", ["Linux", "Windows", "Redes y Cisco", "WordPress", "SEO"]),
     ("Hardware", ["Montaje y desmontaje de equipos", "Crimpado de cables RJ45", "Diagnóstico y reparación"]),
